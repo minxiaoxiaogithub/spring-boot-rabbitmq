@@ -8,7 +8,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import entity.Order;
+import com.xx.practice.entity.Order;
 
 @Component
 public class FateProducer implements RabbitTemplate.ConfirmCallback, RabbitTemplate.ReturnCallback {

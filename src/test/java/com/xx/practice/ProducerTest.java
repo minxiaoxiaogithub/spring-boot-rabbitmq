@@ -1,4 +1,4 @@
-package com.xx.practice.test;
+package com.xx.practice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

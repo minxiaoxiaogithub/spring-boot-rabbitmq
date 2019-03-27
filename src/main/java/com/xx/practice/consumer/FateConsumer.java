@@ -14,8 +14,7 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
 import com.rabbitmq.client.Channel;
-
-import entity.Order;
+import com.xx.practice.entity.Order;
 
 @Component
 public class FateConsumer {
